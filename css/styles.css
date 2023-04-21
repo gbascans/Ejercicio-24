@@ -1,0 +1,49 @@
+.table-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: #009879;
+}
+form {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    display: inline-block;
+    min-width: 400px;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 5px 0;
+    min-width: 400px;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 5px 5px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
